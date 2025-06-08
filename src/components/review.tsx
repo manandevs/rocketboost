@@ -3,19 +3,19 @@ const reviews = [
     text: `"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus error officiis atque voluptates magnam!"`,
     name: "James Peterson",
     title: "CEO, Tech Corp",
-    img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
+    img: "https://images.unsplash.com/photo-1725866546799-4cc16f6cba23?q=80&w=1498&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     text: `"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus error officiis atque voluptates magnam!"`,
     name: "Sarah Johnson",
     title: "Marketing Director",
-    img: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face",
+    img: "https://images.unsplash.com/photo-1586232902955-df204f34b36e?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     text: `"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus error officiis atque voluptates magnam!"`,
     name: "Mike Franklin",
     title: "Product Manager",
-    img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+    img: "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 
@@ -31,12 +31,12 @@ const StarRating = () => (
 
 const Review = () => {
   return (
-    <div className="bg-[#1d163f] min-h-screen py-12 px-4 text-white font-sans">
+    <div className="bg-[#1d163f] h-auto py-10 text-white font-sans">
       <div className="mb-10 text-center">
-        <h1 className="text-4xl font-extrabold tracking-tight uppercase text-red-500 mb-3">
+        <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight uppercase text-red-500 mb-3">
           Reviews
         </h1>
-        <p className="text-lg text-gray-300 italic">
+        <p className="text-[16px] md:text-lg text-gray-300 italic">
           {"(coming soon)"}
         </p>
       </div>
@@ -47,7 +47,7 @@ const Review = () => {
               key={idx}
               className="bg-white/5 rounded-xl p-7 md:p-8 shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 border border-white/10 backdrop-blur"
             >
-              <p className="text-gray-300 text-sm md:text-base leading-relaxed mb-6">
+              <p className="text-gray-300 text-sm md:text-base leading-relaxed mb-6 line-clamp-4">
                 {t.text}
               </p>
               <StarRating />
