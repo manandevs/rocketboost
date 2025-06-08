@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
 import { IoRocketOutline } from "react-icons/io5";
 

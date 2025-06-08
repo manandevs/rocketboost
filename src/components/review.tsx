@@ -1,5 +1,3 @@
-import React from "react";
-
 const reviews = [
   {
     text: `"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus error officiis atque voluptates magnam!"`,

@@ -1,4 +1,3 @@
-import React from "react";
 import { FaStar, FaSearch, FaFacebookF, FaInstagram } from "react-icons/fa";
 
 const services = [

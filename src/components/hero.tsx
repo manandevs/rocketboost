@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Hero() {
   return (
     <main className="text-white flex-grow container mx-auto px-4 sm:px-8 md:px-16 flex flex-col lg:flex-row items-center justify-between z-10 pt-8 pb-0 lg:pb-20 lg:pt-0 w-full">
