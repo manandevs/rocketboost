@@ -1,4 +1,4 @@
-import { FiPhone, FiMessageCircle, FiMail } from "react-icons/fi";
+import { FiPhone, FiMail } from "react-icons/fi";
 
 const card = [
   {
