@@ -4,43 +4,43 @@ const services = [
   {
     title: "Help with Reviews",
     desc: "Improve your online reputation with customer review assistance.",
-    price: "$15 (per month)",
+    price: "$15 (per review)",
     icon: FaStar,
   },
   {
     title: "Top 3 Search Results",
     desc: "Get your business ranked in the top 3 search engine results.",
-    price: "$350 (per month)",
+    price: "$15 (per review)",
     icon: FaSearch,
   },
   {
     title: "Top 5 Search Results",
     desc: "Boost your visibility by reaching the top 5 search results.",
-    price: "$250 (per month)",
+    price: "$15 (per review)",
     icon: FaSearch,
   },
   {
     title: "Top 10 Search Results",
     desc: "Appear in the top 10 search results to increase traffic.",
-    price: "$200 (per month)",
+    price: "$15 (per review)",
     icon: FaSearch,
   },
   {
     title: "Facebook Management",
     desc: "Professional management of your Facebook page and content.",
-    price: "$120 (per month)",
+    price: "$15 (per review)",
     icon: FaFacebookF,
   },
   {
     title: "Instagram Management",
     desc: "Grow your brand with expert Instagram marketing and management.",
-    price: "$80 (per month)",
+    price: "$15 (per review)",
     icon: FaInstagram,
   },
 ];
 
 const Services = () => (
-  <section className="bg-[#1d163f] h-auto py-10 text-white font-sans">
+  <section id="service" className="bg-[#1d163f] h-auto py-10 text-white font-sans">
     <div className="max-w-7xl mx-auto">
       <div className="mb-10 text-center">
         <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight uppercase text-red-500 mb-3">

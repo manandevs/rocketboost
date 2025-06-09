@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <main className="text-white flex flex-col lg:flex-row-reverse items-center justify-between z-10 w-full lg:min-h-screen">
+    <main id="home" className="text-white flex flex-col lg:flex-row-reverse items-center justify-between z-10 w-full lg:min-h-[calc(100vh-120px)]">
       <div className="scale-[0.65] lg:scale-[1] lg:w-1/2 flex justify-center items-center relative w-full h-[300px] lg:h-[500px]">
         <div className="absolute w-[280px] h-[280px] sm:w-[380px] sm:h-[380px] md:w-[480px] md:h-[480px] border-2 border-dashed border-purple-400/50 rounded-full animate-spin [animation-duration:27s]" />
         <div className="absolute top-[10%] left-[10%] sm:left-[5%] md:left-[15%] w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 bg-gray-300 rounded-full shadow-2xl flex items-center justify-center overflow-hidden animate-pulse [animation-duration:4s]">
@@ -18,27 +18,27 @@ export default function Hero() {
         <img
           src="/Rocket.png"
           alt="rocket"
-          className="w-96 h-96 -rotate-[40deg] z-30"
+          className="w-96 h-96 md:w-[425px] md:h-[425px] -rotate-[40deg] z-30"
         />
       </div>
-      <div className="lg:w-1/2 text-center lg:text-left -mt-4 lg:-mt-0 z-20">
-       <div>
-         <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight">
-          ROCKET
-        </h1>
-        <h2 className="text-6xl sm:text-7xl md:text-8xl font-extrabold text-red-500 -mt-2 sm:-mt-3 md:-mt-4 italic">
-          BOOST
-        </h2>
-        <p className="text-lg sm:text-xl text-gray-300 max-w-md px-5 lg:px-0">
-          Lorem ipsum, dolor sit amet consectetur adipisicing.
-        </p>
-       </div>
-        <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-          <button className="bg-red-600 hover:bg-red-700 transition-colors text-white font-semibold py-3 px-8 rounded-md text-lg shadow-lg transform hover:scale-105">
+      <div className="lg:w-1/2 text-center lg:text-left -mt-4 lg:-mt-8 z-20">
+        <div>
+          <h1 className="text-5xl sm:text-6xl md:text-7xl leading-[1.2] font-bold tracking-tight">
+            BOOST
+          </h1>
+          <h2 className="text-[50px] uppercase md:text-[82px] leading-[1.1] font-extrabold text-red-500  italic">
+            Your Local Business
+          </h2>
+          <p className="text-lg sm:text-xl leading-[1.4] mt-3 text-gray-300 max-w-md px-5 lg:px-0">
+            We specialize in Local Arizona Businesses
+          </p>
+        </div>
+        <div className="mt-10 flex  flex-row gap-4 justify-center lg:justify-start">
+          <button className="cursor-pointer bg-red-600 hover:bg-red-700 transition-colors text-white font-semibold py-3 px-8 rounded-md text-lg shadow-lg transform hover:scale-105">
             LEARN MORE
           </button>
-          <button className="bg-red-600 hover:bg-red-700 transition-colors text-white font-semibold py-3 px-8 rounded-md text-lg shadow-lg transform hover:scale-105 sm:bg-transparent sm:border-2 sm:border-red-500 sm:hover:bg-red-500">
-            BUY NOW
+          <button className="cursor-pointer uppercase transition-colors text-white font-semibold py-3 px-8 rounded-md text-lg shadow-lg transform hover:scale-105 bg-transparent border border-red-500 hover:bg-red-500">
+            Text Us
           </button>
         </div>
       </div>
