@@ -3,38 +3,38 @@ import { FaStar, FaSearch, FaFacebookF, FaInstagram } from "react-icons/fa";
 const services = [
   {
     title: "Help with Reviews",
-    desc: "Improve your online reputation with customer review assistance.",
-    price: "$15 (per review)",
+    desc: "We help get more positive reviews for your business.  Improve your online reputation with customer review assistance",
+    price: "$15 (per month)",
     icon: FaStar,
   },
   {
     title: "Top 3 Search Results",
-    desc: "Get your business ranked in the top 3 search engine results.",
-    price: "$15 (per review)",
+    desc: 'Get your business ranked in the TOP 3 search engine results.  Example: Top 3 for search "Best restaurant in Scottsdale"',
+    price: "$350 (per month)",
     icon: FaSearch,
   },
   {
     title: "Top 5 Search Results",
-    desc: "Boost your visibility by reaching the top 5 search results.",
-    price: "$15 (per review)",
+    desc: 'Get your business ranked in the TOP 5 search engine results.  Example: Top 5 for search "Best dentist in Chandler"',
+    price: "$250 (per month)",
     icon: FaSearch,
   },
   {
     title: "Top 10 Search Results",
-    desc: "Appear in the top 10 search results to increase traffic.",
-    price: "$15 (per review)",
+    desc: 'Get your business ranked in the TOP 10 search engine results.  Example: Top 3 for search "Best car mechanic in Phoenix"',
+    price: "$200 (per month)",
     icon: FaSearch,
   },
   {
     title: "Facebook Management",
     desc: "Professional management of your Facebook page and content.",
-    price: "$15 (per review)",
+    price: "$120 (per month)",
     icon: FaFacebookF,
   },
   {
     title: "Instagram Management",
     desc: "Grow your brand with expert Instagram marketing and management.",
-    price: "$15 (per review)",
+    price: "$80 (per month)",
     icon: FaInstagram,
   },
 ];

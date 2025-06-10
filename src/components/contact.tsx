@@ -1,26 +1,26 @@
-import { FiPhone, FiMail } from "react-icons/fi";
+import { FiPhone } from "react-icons/fi";
 
 const card = [
   {
     title: "Call or Text Us",
     icon: <FiPhone className="w-5 h-5 md:w-7 md:h-7 text-white" />,
-    content: <p className="text-white">949.537.9965</p>,
+    content: <p className="text-white text-[18px] font-semibold md:text-[24px]">949.537.9965</p>,
     button: null,
   },
-  {
-    title: "Frequently Asked Questions",
-    icon: <FiMail className="w-5 h-5 md:w-7 md:h-7 text-white" />,
-    content: (
-      <p className="text-gray-200 text-sm mb-4 leading-relaxed">
-        Fill out our form and we'll get back to you in 24 hours.
-      </p>
-    ),
-    button: (
-      <a href="#faq" className="bg-red-600 hover:bg-red-700 text-white px-6 py-2 inline-block w-auto rounded transition-colors duration-200 cursor-pointer">
-        Get Started
-      </a>
-    ),
-  },
+  // {
+  //   title: "Frequently Asked Questions",
+  //   icon: <FiMail className="w-5 h-5 md:w-7 md:h-7 text-white" />,
+  //   content: (
+  //     <p className="text-gray-200 text-sm mb-4 leading-relaxed">
+  //       Fill out our form and we'll get back to you in 24 hours.
+  //     </p>
+  //   ),
+  //   button: (
+  //     <a href="#faq" className="bg-red-600 hover:bg-red-700 text-white px-6 py-2 inline-block w-auto rounded transition-colors duration-200 cursor-pointer">
+  //       Get Started
+  //     </a>
+  //   ),
+  // },
 ];
 
 export default function Contact() {

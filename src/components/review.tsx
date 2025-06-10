@@ -1,18 +1,18 @@
 const reviews = [
   {
-    text: `We are a local restaurant in Scottsdale area. SEO-Arizona helped us with reviews and getting a top google search result which boosted our customer base. You have to spend money to make money.`,
+    text: `We are a local restaurant in Scottsdale area. SEO-Arizona.com helped us with reviews and getting a top google search result which boosted our customer base. You have to spend money to make money.`,
     name: "James Peterson",
     title: "Scottsdale, Arizona",
     img: "https://images.unsplash.com/photo-1725866546799-4cc16f6cba23?q=80&w=1498&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    text: `Local car-auto mechanic shop in Phoenix Metro area. We were struggling to attract new customers to build our business. SEO-Arizona helped us improve our review score and now we finish in the top page of google results for "car mechanic in Phoenix."`,
+    text: `Local car-auto mechanic shop in Phoenix Metro area. We were struggling to attract new customers to build our business. SEO-Arizona.com helped us improve our review score and now we finish in the top page of google results for "car mechanic in Phoenix."`,
     name: "Mike Franklin",
     title: "Phoenix, Arizona",
     img: "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    text: `We have an established dental practice in Tempe, but without a strong online presence we could not attract clients from outside our local area. SEO-Arizona got us a top google page using keywords "top dentist in Tempe."`,
+    text: `We have an established dental practice in Tempe, but without a strong online presence we could not attract clients from outside our local area. SEO-Arizona.com got us a top google page using keywords "top dentist in Tempe."`,
     name: "Sarah Johnson",
     title: "Tempe, Arizona",
     img: "https://images.unsplash.com/photo-1586232902955-df204f34b36e?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",

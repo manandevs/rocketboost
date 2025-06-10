@@ -46,7 +46,7 @@ export default function Navbar() {
               style={{ fontSize: "26px" }}
             />
             <span className="text-white">SEO-</span>
-            <span className="text-red-400">Arizona</span>
+            <span className="text-red-400">Arizona.com</span>
           </a>
 
           {/* Desktop nav */}

@@ -26,20 +26,20 @@ export default function Hero() {
           <h1 className="text-5xl sm:text-6xl md:text-7xl leading-[1.2] font-bold tracking-tight">
             BOOST
           </h1>
-          <h2 className="text-[50px] uppercase md:text-[82px] leading-[1.1] font-extrabold text-red-500  italic">
+          <h2 className="text-[50px] uppercase  md:text-[82px] leading-[1.1] font-extrabold text-red-500  italic">
             Your Local Business
           </h2>
-          <p className="text-lg sm:text-xl leading-[1.4] mt-3 text-gray-300 max-w-md px-5 lg:px-0">
+          <p className="text-lg sm:text-xl leading-[1.4] text-center lg:text-left  mx-auto lg:mx-0 mt-4 text-gray-300 max-w-md">
             We specialize in Local Arizona Businesses
           </p>
         </div>
         <div className="mt-10 flex  flex-row gap-4 justify-center lg:justify-start">
-          <button className="cursor-pointer bg-red-600 hover:bg-red-700 transition-colors text-white font-semibold py-3 px-8 rounded-md text-lg shadow-lg transform hover:scale-105">
+          <a href="#service" className="cursor-pointer bg-red-600 hover:bg-red-700 transition-colors text-white font-semibold py-3 px-8 rounded-md text-lg shadow-lg transform hover:scale-105">
             LEARN MORE
-          </button>
-          <button className="cursor-pointer uppercase transition-colors text-white font-semibold py-3 px-8 rounded-md text-lg shadow-lg transform hover:scale-105 bg-transparent border border-red-500 hover:bg-red-500">
+          </a>
+          <a href="#contact" className="cursor-pointer uppercase transition-colors text-white font-semibold py-3 px-8 rounded-md text-lg shadow-lg transform hover:scale-105 bg-transparent border border-red-500 hover:bg-red-500">
             Text Us
-          </button>
+          </a>
         </div>
       </div>
     </main>
