@@ -72,6 +72,8 @@ const FAQ = () => {
                 } overflow-hidden`}
                 style={{ willChange: "max-height, opacity" }}
               >
+                  <span className="text-[16px] md:text-[20px] text-red-400 font-semibold mr-[5px]">A.</span>
+
                 {faq.answer}
               </div>
             </div>

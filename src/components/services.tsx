@@ -4,7 +4,7 @@ const services = [
   {
     title: "Help with Reviews",
     desc: "We help get more positive reviews for your business.  Improve your online reputation with customer review assistance",
-    price: "$15 (per month)",
+    price: "$15 (per review)",
     icon: FaStar,
   },
   {

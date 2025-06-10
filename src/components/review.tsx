@@ -8,14 +8,14 @@ const reviews = [
   {
     text: `Local car-auto mechanic shop in Phoenix Metro area. We were struggling to attract new customers to build our business. SEO-Arizona.com helped us improve our review score and now we finish in the top page of google results for "car mechanic in Phoenix."`,
     name: "Mike Franklin",
+    img: "https://images.unsplash.com/photo-1586232902955-df204f34b36e?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "Phoenix, Arizona",
-    img: "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     text: `We have an established dental practice in Tempe, but without a strong online presence we could not attract clients from outside our local area. SEO-Arizona.com got us a top google page using keywords "top dentist in Tempe."`,
     name: "Sarah Johnson",
     title: "Tempe, Arizona",
-    img: "https://images.unsplash.com/photo-1586232902955-df204f34b36e?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    img: "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     text: `Used car dealership in Mesa and with so many other small businesses in this industry, we struggled a little. Now we get consistent 5-star reviews that really help our google maps results. You get what you pay for.`,
@@ -37,42 +37,37 @@ const StarRating = () => (
 
 const Review = () => {
   return (
-    <div  className="bg-[#1d163f] h-auto py-10 text-white font-sans">
+    <div className="bg-[#1d163f] h-auto py-10 text-white font-sans">
       <div className="mb-10 text-center">
         <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight uppercase text-red-500 mb-3">
           Reviews
         </h1>
-        <p className="text-[16px] md:text-lg text-gray-300 italic">
-          {"(coming soon)"}
-        </p>
       </div>
       {/* <div className="bg-[#2c1e4a] py-10 px-4 sm:px-8 md:px-16 text-white"> */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[980px] mx-auto w-full">
-          {reviews.map((t, idx) => (
-            <div
-              key={idx}
-              className="w-full bg-[#2c1e4a] rounded-xl p-7 md:p-8 shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 border border-white/10 backdrop-blur mx-auto"
-            >
-              <p className="text-gray-300 text-sm md:text-base leading-relaxed mb-6">
-                {t.text}
-              </p>
-              <StarRating />
-              <div className="flex items-center gap-3">
-                <img
-                  src={t.img}
-                  alt={t.name}
-                  className="w-11 h-11 rounded-full object-cover border-2 border-red-500"
-                />
-                <div className="flex flex-col">
-                  <div className="text-sm font-semibold text-white">
-                    {t.name}
-                  </div>
-                  <div className="text-xs text-red-400">{t.title}</div>
-                </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[980px] mx-auto w-full">
+        {reviews.map((t, idx) => (
+          <div
+            key={idx}
+            className="w-full bg-[#2c1e4a] rounded-xl p-7 md:p-8 shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 border border-white/10 backdrop-blur mx-auto"
+          >
+            <p className="text-gray-300 text-sm md:text-base leading-relaxed mb-6">
+              {t.text}
+            </p>
+            <StarRating />
+            <div className="flex items-center gap-3">
+              <img
+                src={t.img}
+                alt={t.name}
+                className="w-11 h-11 rounded-full object-cover border-2 border-red-500"
+              />
+              <div className="flex flex-col">
+                <div className="text-sm font-semibold text-white">{t.name}</div>
+                <div className="text-xs text-red-400">{t.title}</div>
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
+      </div>
       {/* </div> */}
     </div>
   );
