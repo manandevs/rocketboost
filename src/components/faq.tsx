@@ -8,7 +8,7 @@ const faqs = [
   },
   {
     question:
-      "I am paying for Top 5 Search Results. Can you guarantee this result?",
+      "I am paying for Top 5 Search Results. <br /> Can you guarantee this result?",
     answer:
       "There are many variables that can affect your end results, such as your product or service category and your local market conditions. Cities with very crowded businesses are very competitive and difficult to get the best results. Before we even start and before you pay any money, we will do a deep analysis to understand your local market and give you a good estimation on your end results. Please understand, getting your business to a TOP position takes time—often many weeks or several months.",
   },
@@ -53,10 +53,10 @@ const FAQ = () => {
                 onClick={() => toggle(index)}
                 className="w-full py-4 text-left flex justify-between cursor-pointer items-start text-red-400 font-semibold text-base gap-3 md:text-xl transition-colors"
               >
-                <span >
-                  <span className="text-[18px] md:text-[23px]">Q.</span>
-                  <span className="text-white text-left pl-1.5">
-                    {faq.question}
+                <span className="flex gap-[5px]">
+                  <span className="text-[18px] shrink-0 md:text-[23px] md:mt-0 mt-[4px] leading-[1]">Q.</span>
+                  <span dangerouslySetInnerHTML={{__html:faq.question}} className="text-white text-left pl-1.5">
+                    
                   </span>
                 </span>{" "}
                 <span className="text-white text-xl">
@@ -65,14 +65,14 @@ const FAQ = () => {
               </button>
 
               <div
-                className={` text-gray-300 text-[14px] sm:text-base leading-relaxed transition-all duration-300 ease-in-out ${
+                className={` text-gray-300 text-[14px] flex gap-[10px] sm:text-base leading-relaxed transition-all duration-300 ease-in-out ${
                   openIndex === index
                     ? "max-h-96 opacity-100 pb-5"
                     : "max-h-0 opacity-0 pb-0"
                 } overflow-hidden`}
                 style={{ willChange: "max-height, opacity" }}
               >
-                  <span className="text-[16px] md:text-[20px] text-red-400 font-semibold mr-[5px]">A.</span>
+                  <span className="text-[18px] md:text-[23px] leading-[1] md:mt-0 mt-[1px] shrink-0 text-red-400 font-semibold">A.</span>
 
                 {faq.answer}
               </div>
